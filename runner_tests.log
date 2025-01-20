@@ -1,0 +1,9 @@
+2025-01-21 00:54:07,194 | WARNING | Неверный тип данных для объекта Runner
+2025-01-21 00:54:07,194 | WARNING | Неверная скорость для Runner
+Traceback (most recent call last):
+  File "D:\DocumentsForUrban\pythonProject0\Homework\Module12\tests_12_4.py", line 11, in test_walk
+    walker = Runner("mike", -3)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\DocumentsForUrban\pythonProject0\Homework\Module12\rt_with_exceptions.py", line 11, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -3
